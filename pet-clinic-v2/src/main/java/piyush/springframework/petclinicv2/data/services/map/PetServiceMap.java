@@ -2,9 +2,12 @@ package piyush.springframework.petclinicv2.data.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import piyush.springframework.petclinicv2.data.model.Pet;
 import piyush.springframework.petclinicv2.data.services.PetService;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 	@Override
